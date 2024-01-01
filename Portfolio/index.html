@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/2788e3bd7f.js" crossorigin="anonymous"></script>
+  </head>
+ <body>
+  <div id="header" >
+ <div class="container">
+<nav>
+    <img src="images/004.png" class="logo">
+    <ul id="sidemenu">
+    <li> <a href="#header">Home</a></li>
+    <li> <a href="#about">About</a></li>
+    <li> <a href="#services">Services</a></li>
+    <li> <a href="#portfolio">Portfolio</a></li>
+    <li> <a href="#contact">Contact</a></li>
+    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+   <div class="header-text" >
+   <p>Undergraduate Computer Science Student</p>
+  <h1>Hi, I'm <span> Lakshitha </span> Sandakelum <br> From University Of Kelaniya</h1>
+  
+  </div>
+ </div>
+ </div>
+<!-- --------about--------- -->
+     <div id="about">
+   <div class ="container">
+  <div class = "row">
+ <div class="about-col-1">
+ <img src="images/009.jpg">
+ </div>
+   <div class="about-col-2">
+  <h1 class="sub-title">About Me</h1>
+ <p>Focused professional having excellent technical and communcation skills.Always try to 
+ learn new technologies.Very good Social worker in university journey.
+ </p>
+
+      <div class="tab-titles">
+   <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+   <p class="tab-links" onclick="opentab('experience')">Experience</p>
+  <p class="tab-links" onclick="opentab('education')">Education</p>
+ </div>
+
+  <div class="tab-contents active-tab" id="skills">
+  <ul>
+
+  <li><span>Backend web developing </span> <br> using c,c++ ,java , angular ,react</li>
+  <br><li><span>Web Design</span> <br>web app Development and hosting</li>
+  <br><li><span>App development</span> <br>developing mobile apps</li>
+         </ul>
+        </div>
+      <div class="tab-contents" id ="experience">
+    <ul>
+    <li><span>6 months internship </span> <br> training at WSO2</li>
+    <li><span>2 year free lancer</span> <br>at fiver and upwork</li>
+    </ul>
+    </div>
+
+  <div class="tab-contents" id ="education">
+ <ul>
+  <li><span>2023-2027</span><br>Bsc hons in computer sciecnce at university of 
+  kelaniya</li>
+  <li><span>2022-A/l in physical science</span> <br>got AAC with 1.5963 Z core </li>
+       </ul>
+     </div>
+   </div>
+ </div>
+ </div>
+ </div>
+
+ <!-- ----services------- -->
+ <div id = "services" >
+   <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+     <div>
+      <i class="fa-brands fa-wordpress"></i>
+      <h2>Web Design</h2>
+      <p> Designing As needed to user,creative good looking webssite for your needed..</p>
+      <a href="#">Learn more...</a>
+     </div>
+
+     <div>
+      <i class="fa-brands fa-java"></i>
+      <h2>Backend Web Development</h2>
+      <p> Create wesite </p>
+      <a href="#">Learn more...</a>
+     </div>
+
+     <div>
+      <i class="fa-brands fa-apple"></i>
+      <h2>App Development</h2>
+      <p> Design your own app here</p>
+      <a href="#">Learn more...</a>
+     </div>
+
+    </div>
+   </div>
+ </div>
+
+<!--------portfolio--------->
+<div id="portfolio" >
+   <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+    <div class="work">
+      <img src="images/work1.jpg">
+      <div class="layer" >
+        <h3>Website for company</h3>
+        <p>Bring Cutomers to new technology   </p>
+        <a href="#">Visit</a>
+      </div>
+    </div>
+
+    <div class="work">
+      <img src="images/work2.jpg">
+      <div class="layer" >
+        <h3>Backend website code</h3>
+        <p>Simple web site for users </p>
+        <a href="#">Visit</a>
+      </div>
+    </div>
+
+    <div class="work">
+      <img src="images/work3.jpg">
+      <div class="layer" >
+        <h3>Online shopping app</h3>
+        <p>Make easy and quickly shopping  </p>
+        <a href="#"><i class="fa-sharp fa-solid fa-cloud-arrow-down"></i></a>
+      </div>
+    </div>
+   </div>
+   <a href="#" class="btn" >See More...</a>
+   </div>
+</div>
+
+<!--------contact------ -->
+<div id="contact">
+     <div class="container">
+      <div class="row" >
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me </h1>
+          <p><i class="fa-solid fa-paper-plane"></i>Lakshithasandakelum7768@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>0742728166</p>
+          <div class="social-icons" >
+            <a href="https://web.facebook.com/lakshitha.sandakelum.777/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/Lakshit65184867"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/sandakelumlakshitha/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://lk.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Lakshitha6"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span  id="msg"></span>
+        </div>
+      </div>
+     </div>
+     <div class="copyright">
+      <p>Copyright © Lakshitha .Made with <i class="fa-solid fa-heart"></i> nexus pvt ltd </p>
+     </div>
+</div>
+
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname) {
+for(tablink of tablinks){
+tablink.classList.remove("active-link");
+}
+for(tabcontent of tabcontents){
+tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+
+<script>
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+  
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwG8HbcWGbJUC9VGju8EbPJVBQx-Z2Itxq3WXrjbu3r5DUaNvuaY19DiZgAhLD4Y2m-/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000 )
+         form.reset()     
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
